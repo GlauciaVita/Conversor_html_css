@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body {
+    background-color: #eee;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input, select, button {
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    width: 150px;
+    padding: 10px 14px;
+    font-size: 0.9em;
+    box-shadow: 1px 1px 1px 2px darkslategray;
+
+    transition: ease-in-out;
+}
+
+select, button {
+    cursor: pointer;
+}
+
+label {
+    font-size: 0.9em;
+}
+
+
+
